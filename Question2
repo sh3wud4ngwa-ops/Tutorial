@@ -1,46 +1,17 @@
-public class Q2a {
-    public static void main(String[] args) {
-        int num1 = 10;
-        int num2 = 10;
+2(a)
+if (num1 == num2)
+    System.out.println("Number 1 is equal to number 2.");
 
-        if (num1 == num2) {
-            System.out.println("Number 1 is equal to number 2.");
-        }
-    }
-}
+2(b)
+if (x > y && x > z)
+    System.out.println("x is the largest number");
 
-public class Q2b {
-    public static void main(String[] args) {
-        int x = 15;
-        int y = 10;
-        int z = 5;
+2(c)
+if (s1.equals(s2))
+    System.out.println("They are equal strings.");
+else
+    System.out.println("They are not equal strings.");
 
-        if (x > y && x > z) {
-            System.out.println("x is the largest number");
-        }
-    }
-}
-
-public class Q2c {
-    public static void main(String[] args) {
-        String s1 = "Hello";
-        String s2 = "Hello";
-
-        if (s1.equals(s2)) {
-            System.out.println("They are equal strings.");
-        } else {
-            System.out.println("They are not equal strings.");
-        }
-    }
-}
-
-public class Q2d {
-    public static void main(String[] args) {
-        int x = 5;
-        int y = -3;
-
-        if (x > 0 || y > 0) {
-            System.out.println("Either x or y is positive");
-        }
-    }
-}
+2(d)
+if (x > 0 || y > 0)
+    System.out.println("Either x or y is positive");
