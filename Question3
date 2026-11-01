@@ -1,60 +1,13 @@
-public class Q3a {
-    public static void main(String[] args) {
-        int x = 9;
-        int y = 10;
+3(a)
+#####
+$$$$$
 
-        if (x < 10)
-            if (y > 10)
-                System.out.println("*****");
-            else
-                System.out.println("#####");
+3(b)
+#####
+$$$$$
 
-        System.out.println("$$$$$");
-    }
-}
+3(c)
+#####
 
-public class Q3b {
-    public static void main(String[] args) {
-        int x = 9;
-        int y = 10;
-
-        if (x < 10) {
-            if (y < 10)
-                System.out.println("*****");
-            else {
-                System.out.println("#####");
-                System.out.println("$$$$$");
-            }
-        }
-    }
-}
-
-public class Q3c {
-    public static void main(String[] args) {
-        int x = 9;
-        int y = 10;
-
-        if (x < 10) {
-            if (y < 10)
-                System.out.println("*****");
-            System.out.println("#####");
-        } else {
-            System.out.println("$$$$$");
-        }
-    }
-}
-
-public class Q3d {
-    public static void main(String[] args) {
-        int x = 9;
-        int y = 10;
-
-        if (x > 10) {
-            if (y > 10) {
-                System.out.println("*****");
-                System.out.println("#####");
-            } else
-                System.out.println("$$$$$");
-        }
-    }
-}
+3(d)
+No output
